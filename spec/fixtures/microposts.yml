@@ -1,7 +1,7 @@
 ---
 post:
-  id: 1
+  id: 98
   content: Lorem ipsum
-  user_id: 2
-  created_at: 2012-09-04 06:07:03.258463000 Z
-  updated_at: 2012-09-04 06:07:03.258463000 Z
+  user_id: 15
+  created_at: 2012-09-04 06:14:15.493115000 Z
+  updated_at: 2012-09-04 06:14:15.493115000 Z

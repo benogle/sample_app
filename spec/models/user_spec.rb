@@ -13,7 +13,7 @@ require 'spec_helper'
 describe User do
 
   before do
-    @user = User.new(name: "Example User", email: "user@example.com", 
+    @user = User.new(name: "Example User", email: "user@example.com",
                      password: "foobar", password_confirmation: "foobar")
   end
 
@@ -67,7 +67,7 @@ describe User do
 				@user.should_not be_valid
 			end
 		end
-	end 
+	end
 
 	describe "when email format is valid " do
 		it "should_be valid" do
@@ -119,7 +119,7 @@ describe User do
   		describe "with invalid password" do
     		let(:user_for_invalid_password) { found_user.authenticate("invalid") }
 
-	    	it { should_not == user_for_invalid_password }	
+	    	it { should_not == user_for_invalid_password }
     		specify { user_for_invalid_password.should be_false }
     	end
   	end
@@ -131,7 +131,7 @@ describe User do
   describe "micropost associations" do
 
     before { @user.save }
-    let!(:older_micropost) do 
+    let!(:older_micropost) do
       FactoryGirl.create(:micropost, user: @user, created_at: 1.day.ago)
     end
     let!(:newer_micropost) do

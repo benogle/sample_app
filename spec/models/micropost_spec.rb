@@ -1,8 +1,9 @@
 require 'spec_helper'
 
 describe Micropost do
+  fixtures :users
 
-  let(:user) { FactoryGirl.create(:user) }
+  let(:user) { users(:user) }
   before { @micropost = user.microposts.build(content: "Lorem ipsum") }
 
   subject { @micropost }
@@ -19,7 +20,7 @@ describe Micropost do
       expect do
         Micropost.new(user_id: user.id)
       end.should raise_error(ActiveModel::MassAssignmentSecurity::Error)
-    end    
+    end
   end
 
 
