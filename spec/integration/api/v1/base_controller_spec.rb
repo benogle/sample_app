@@ -15,7 +15,7 @@ describe Api::V1::BaseController do
       @obj = Object.new
       @controller = Api::V1::BaseController.new
       @opts = { :controller => @obj }
-      @user = users(:reader)
+      @user = users(:user)
       @admin = users(:admin)
     end
 
@@ -76,7 +76,7 @@ describe Api::V1::BaseController do
       login_as user, :scope => :user
     end
 
-    let(:user) { users(:reader) }
+    let(:user) { users(:user) }
     let(:admin) { users(:admin) }
 
     it 'handles validation issues' do
