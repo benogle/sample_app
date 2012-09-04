@@ -34,6 +34,7 @@ gem 'jquery-rails'
 
 
 group :test do
+  gem 'fixture_builder'
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', :require => false
   gem 'growl', '1.0.3'

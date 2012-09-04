@@ -1,0 +1,19 @@
+---
+admin:
+  id: 193
+  name: Person 1
+  email: person_1@example.com
+  created_at: 2012-09-04 05:55:06.781358000 Z
+  updated_at: 2012-09-04 05:55:06.781358000 Z
+  password_digest: $2a$04$BObzX7IWW56lMmOYnihKaumeTZfvzoW9TWpHJkIa3/zYu5cavqwmm
+  remember_token: nIQuiF9SmU-iZJfZGipwLg
+  admin: true
+user:
+  id: 194
+  name: Person 2
+  email: person_2@example.com
+  created_at: 2012-09-04 05:55:06.788781000 Z
+  updated_at: 2012-09-04 05:55:06.788781000 Z
+  password_digest: $2a$04$V7sovyLNEz2YabgDs/x9hOWaqOpvLjfhSi53eXIcm52hw0f/FJNe6
+  remember_token: rc9VCAxtV3CrNXWEZoT0yA
+  admin: false
