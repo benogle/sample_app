@@ -1,19 +1,21 @@
 ---
 admin:
-  id: 193
+  id: 1
   name: Person 1
   email: person_1@example.com
-  created_at: 2012-09-04 05:55:06.781358000 Z
-  updated_at: 2012-09-04 05:55:06.781358000 Z
-  password_digest: $2a$04$BObzX7IWW56lMmOYnihKaumeTZfvzoW9TWpHJkIa3/zYu5cavqwmm
-  remember_token: nIQuiF9SmU-iZJfZGipwLg
+  created_at: 2012-09-04 06:07:03.209871000 Z
+  updated_at: 2012-09-04 06:07:03.209871000 Z
+  password_digest: $2a$04$4q/8mVX2DasamXTUoUnGreONJaGbyYSfppu.XTHdzZiqCVB2YMAO2
+  remember_token: WEMK4qvhNHtytIVwURvCDA
   admin: true
+  eid: ba17697b9a06ca25
 user:
-  id: 194
+  id: 2
   name: Person 2
   email: person_2@example.com
-  created_at: 2012-09-04 05:55:06.788781000 Z
-  updated_at: 2012-09-04 05:55:06.788781000 Z
-  password_digest: $2a$04$V7sovyLNEz2YabgDs/x9hOWaqOpvLjfhSi53eXIcm52hw0f/FJNe6
-  remember_token: rc9VCAxtV3CrNXWEZoT0yA
+  created_at: 2012-09-04 06:07:03.218454000 Z
+  updated_at: 2012-09-04 06:07:03.218454000 Z
+  password_digest: $2a$04$QDyBzcdNOyi736t02vbPQuJptRQAiEPcxzkQbzYqjDGTeAaf1BxZq
+  remember_token: Ue1jruLeLipUmcj_Sy_IiA
   admin: false
+  eid: de9945e5c194d572

@@ -10,6 +10,9 @@
 #
 
 class User < ActiveRecord::Base
+
+  include Mixins::ExternallyIdentifiable
+
   attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
   has_many :microposts, dependent: :destroy
@@ -27,7 +30,7 @@ class User < ActiveRecord::Base
     # This is preliminary. See "Following users" for the full implementation.
     Micropost.where("user_id = ?", id)
   end
-  
+
   private
 
     def create_remember_token
